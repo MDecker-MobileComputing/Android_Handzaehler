@@ -1,4 +1,4 @@
-package de.mide.handzaehler;
+package de.mide.android.handzaehler;
 
 import android.app.Activity;
 import android.os.Bundle;

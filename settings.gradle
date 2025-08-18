@@ -19,5 +19,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Handzähler-App"
+rootProject.name = "Handzähler"
 include ':app'

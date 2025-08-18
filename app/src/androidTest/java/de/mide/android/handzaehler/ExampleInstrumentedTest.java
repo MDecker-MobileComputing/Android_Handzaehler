@@ -1,4 +1,4 @@
-package de.mide.handzaehler;
+package de.mide.android.handzaehler;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("de.mide.handzaehler", appContext.getPackageName());
+        assertEquals("de.mide.android.handzaehler", appContext.getPackageName());
     }
 }

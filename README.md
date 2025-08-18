@@ -2,17 +2,12 @@
 
 <br>
 
-App represents a simple [tally counter](https://en.wikipedia.org/wiki/Tally_counter).
-The purpose of the app is it to demonstrate event-handling for buttons.
+Die App repräsentiert einen einfachen [Handzähler](https://de.wikipedia.org/wiki/Handz%C3%A4hler).
+Der Zweck der App ist die Demonstration von Event-Handling.
 
 <br>
 
-Identifiers (names for classes, variables and methods) and UI texts are in German only.
-
-<br>
-
-The is also a [variant of this app for smartwatches with WearOS](https://github.com/MDecker-MobileComputing/HandzaehlerFuerWearOS).
-Another related Android app is this [traffic counter app](https://github.com/MDecker-MobileComputing/Android_Verkehrszaehler) with persistency (SQLite database).
+Es gibt also eine [Variante dieser App für WearOS](https://github.com/MDecker-MobileComputing/HandzaehlerFuerWearOS).
 
 <br>
 
@@ -20,9 +15,9 @@ Another related Android app is this [traffic counter app](https://github.com/MDe
 
 ## Screenshots ##
 
+<br>
 
-![Screenshot 1](screenshot_1.png)  ![Screenshot 2](screenshot_2.png)
-
+![Screenshot 1](screenshot_1.png) &nbsp;  ![Screenshot 2](screenshot_2.png)
 
 <br>
 
@@ -30,7 +25,8 @@ Another related Android app is this [traffic counter app](https://github.com/MDe
 
 ## License ##
 
-
+<br>
 
 See the [LICENSE file](LICENSE.md) for license rights and limitations (BSD 3-Clause License).
 
+<br>
