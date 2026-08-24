@@ -33,18 +33,18 @@ public class MainActivity extends Activity implements View.OnClickListener {
      * Event-Handler für Buttons setzen.
      */
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate( Bundle savedInstanceState ) {
 
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        super.onCreate( savedInstanceState );
+        setContentView( R.layout.activity_main );
 
-        _plusButton  = findViewById(R.id.plusButton);
-        _minusButton = findViewById(R.id.minusButton);
+        _plusButton  = findViewById( R.id.plusButton  );
+        _minusButton = findViewById( R.id.minusButton );
 
-        _zahlTextView = findViewById(R.id.zahlTextView);
+        _zahlTextView = findViewById( R.id.zahlTextView );
 
-        _plusButton.setOnClickListener (this);
-        _minusButton.setOnClickListener(this);
+        _plusButton.setOnClickListener ( this );
+        _minusButton.setOnClickListener( this );
     }
 
 
@@ -54,13 +54,13 @@ public class MainActivity extends Activity implements View.OnClickListener {
      * @param view  Referenz auf UI-Element, das das Event ausgelöst hat.
      */
     @Override
-    public void onClick(View view) {
+    public void onClick( View view ) {
 
-        if (view == _plusButton) {
+        if ( view == _plusButton ) {
 
             _zahl++;
 
-        } else if (view == _minusButton) {
+        } else if ( view == _minusButton ) {
 
             _zahl--;
 
