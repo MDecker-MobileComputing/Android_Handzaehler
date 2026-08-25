@@ -1,6 +1,7 @@
 name: APK-Datei bauen
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - master
